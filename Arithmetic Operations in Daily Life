@@ -1,0 +1,25 @@
+# Objective: The aim of this assignment is to get familiarized with basic arithmetic 
+# operations and understand how they can be applied in everyday situations.
+
+# Task 1: Grocery Store Math: alculate the total cost of three items you'd commonly find 
+# in a grocery store, given their individual prices. 
+# For example, what would be the cost of bread, peanut butter, and jelly be? 
+# Prices don't need to be realistic!
+
+
+price_lettuce = 5 # price of lettuce in USD
+price_apples = 4 # price of apples in USD
+price_walnuts = 10 # price of walnuts in USD
+total_cost = price_lettuce + price_apples + price_walnuts
+print(total_cost)
+
+# Task 2: Bank Interest
+# If you have a savings account with a particular initial amount and a fixed yearly interest rate, 
+# calculate the total amount in your account after a year. 
+# So if you had $10,000 at a 7% interest write code that would tell us the amount at the end of the year. 
+# For the example the expected outcome would be $10,700.
+
+account_value = 20000 # current account value in USD
+annual_interest_rate = 0.12 # yearly interest rate 
+year_end_account_value = account_value + account_value * annual_interest_rate # new account value in USD after one year
+print(year_end_account_value)
